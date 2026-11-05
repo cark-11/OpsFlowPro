@@ -1,150 +1,121 @@
-# \# 🌐 OpsFlow Pro
+# 🌐 OpsFlow Pro
 
-# 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-lightgrey)
+![License](https://img.shields.io/badge/license-Commercial-green)
 
-# \*\*\[RU]\*\* Профессиональный инструмент для мониторинга сети, анализа хостов и управления ИТ-инфраструктурой.  
+---
 
-# \*\*\[EN]\*\* Professional network monitoring, host analysis, and IT infrastructure management tool.
+## 🇷🇺 Русский
 
-# 
+**Профессиональный инструмент для мониторинга сети, анализа хостов и управления ИТ-инфраструктурой.**
 
-# ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+### ✨ Ключевые возможности
 
-# ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-lightgrey)
+- 📡 **Умное сканирование сети** — автоматическое обнаружение устройств с определением ОС, вендора и класса (ПК, сервер, телефон, ТВ, IoT)
+- 📱 **Интеллектуальный мониторинг** — grace period для iPhone, Smart TV и принтеров. Никаких ложных алертов при блокировке экрана!
+- 🔧 **Встроенный терминал** — удалённое управление через SSH (Linux) и WinRM/WMI (Windows) прямо из интерфейса
+- 📊 **Профессиональные отчёты** — автоматическая генерация PDF и Excel отчётов (инвентаризация, SLA, прогнозы)
+- 🔔 **Мультиканальные уведомления** — мгновенные алерты через Telegram, Email и MAX при сбоях
+- 🔄 **Автообновление** — встроенная проверка и загрузка новых версий
+- 🛡️ **Защита кода** — Cython-компиляция критических модулей + AES-шифрование конфигураций
+- 📈 **AI прогнозирование** — предсказание заполнения дисков на основе истории метрик
+- 🕵️ **Shadow IT Detector** — обнаружение новых неизвестных устройств в сети
+- ⚡ **Self-Healing** — автоматическое выполнение команд при сбоях по заданным правилам
 
-# ![License](https://img.shields.io/badge/license-Commercial-green)
+### 📥 Установка
 
-# 
+**Вариант А: Установщик (рекомендуется)**
+1. Скачайте `OpsFlowPro-Setup-1.0.0.exe` из раздела [Releases](https://github.com/cark-11/OpsFlowPro/releases)
+2. Запустите установщик от имени администратора
+3. Следуйте инструкциям мастера
+4. Используйте Trial-ключ (14 дней) или введите лицензионный ключ
 
-# \---
+**Вариант Б: Portable версия**
+1. Скачайте `OpsFlowPro-1.0.0-portable.zip` из [Releases](https://github.com/cark-11/OpsFlowPro/releases)
+2. Распакуйте архив в любую папку
+3. Запустите `OpsFlowPro.exe`
 
-# 
+> 💡 **Совет:** Portable версия не требует установки. Идеально для USB-накопителей!
 
-# \## 🚀 Возможности / Features
+### 💳 Лицензирование
 
-# 
+- **Trial:** 14 дней полного функционала бесплатно
+- **PRO:** Подписка с регулярными обновлениями
 
-# | 🇷🇺 Русский | 🇬🇧 English |
 
-# | :--- | :--- |
+📩 **Для покупки свяжитесь с нами:**
+- ✈️ Telegram: [@opsflow_app](https://t.me/opsflow_app)
+- ✉️ Email: opsflow@ya.ru
 
-# | 📡 Сканирование подсети и определение ОС/вендора | 📡 Subnet scanning and OS/vendor detection |
+### ⚠️ Известные ограничения
 
-# | 📱 Умный мониторинг с защитой от ложных алертов (grace period) | 📱 Smart monitoring with false alert protection (grace period) |
+Устройства iOS (iPhone/iPad) могут временно показываться как **Offline** при заблокированном экране более 30 секунд. Это аппаратное отключение Wi-Fi для экономии батареи — поведение операционной системы, а не ошибка приложения.
 
-# | 🔧 Встроенный SSH / WinRM терминал | 🔧 Built-in SSH / WinRM terminal |
+### 📞 Поддержка
 
-# | 📊 Экспорт инвентаризации в PDF и Excel | 📊 Inventory export to PDF and Excel |
+Если вы столкнулись с проблемой, используйте встроенную функцию **"Скопировать диагностику"** в меню приложения и отправьте данные в поддержку.
 
-# | 🔔 Уведомления в Telegram, Email, MAX | 🔔 Notifications to Telegram, Email, MAX |
+---
 
-# | 🔄 Встроенная система автообновления | 🔄 Built-in auto-update system |
+## 🇬🇧 English
 
-# | 🛡️ Защита кода (Cython) и шифрование данных (AES) | 🛡️ Code protection (Cython) and data encryption (AES) |
+**Professional network monitoring, host analysis, and IT infrastructure management tool.**
 
-# 
+### ✨ Key Features
 
-# \---
+- 📡 **Smart Network Scanning** — automatic device discovery with OS, vendor, and class detection (PC, server, phone, TV, IoT)
+- 📱 **Intelligent Monitoring** — grace period for iPhone, Smart TV, and printers. No false alerts during screen lock!
+- 🔧 **Built-in Terminal** — remote management via SSH (Linux) and WinRM/WMI (Windows) directly from the UI
+- 📊 **Professional Reports** — automatic generation of PDF and Excel reports (inventory, SLA, forecasts)
+- 🔔 **Multi-channel Alerts** — instant notifications via Telegram, Email, and MAX on failures
+- 🔄 **Auto-update** — built-in check and download of new versions
+- 🛡️ **Code Protection** — Cython compilation of critical modules + AES encryption of configurations
+- 📈 **AI Forecasting** — disk space filling prediction based on metrics history
+- 🕵️ **Shadow IT Detector** — detection of new unknown devices on the network
+- ⚡ **Self-Healing** — automatic command execution on failures by custom rules
 
-# 
+### 📥 Installation
 
-# \## 📥 Установка / Installation
+**Option A: Installer (recommended)**
+1. Download `OpsFlowPro-Setup-1.0.0.exe` from [Releases](https://github.com/cark-11/OpsFlowPro/releases)
+2. Run the installer as Administrator
+3. Follow the installation wizard
+4. Use Trial key (14 days) or enter your license key
 
-# 
+**Option B: Portable version**
+1. Download `OpsFlowPro-1.0.0-portable.zip` from [Releases](https://github.com/cark-11/OpsFlowPro/releases)
+2. Extract the archive to any folder
+3. Run `OpsFlowPro.exe`
 
-# \### Вариант А: Установщик / Option A: Installer (Recommended)
+> 💡 **Tip:** Portable version requires no installation. Perfect for USB drives!
 
-# 1\. Перейдите в раздел \*\*\[Releases](https://github.com/твой-username/OpsFlowPro/releases)\*\*.  
+### 💳 Licensing
 
-# &#x20;  Go to the \*\*\[Releases](https://github.com/твой-username/OpsFlowPro/releases)\*\* section.
+- **Trial:** 14 days of full functionality for free
+- **PRO:** Subscription with regular updates
 
-# 2\. Скачайте `OpsFlowPro-Setup-1.0.0.exe`.  
 
-# &#x20;  Download `OpsFlowPro-Setup-1.0.0.exe`.
+📩 **To purchase, contact us:**
+- ✈️ Telegram: [@opsflow_app](https://t.me/opsflow_app)
+- ✉️ Email: opsflow@ya.ru
 
-# 3\. Запустите файл и следуйте инструкциям.  
+### ⚠️ Known Limitations
 
-# &#x20;  Run the file and follow the instructions.
+iOS devices (iPhone/iPad) may temporarily show as **Offline** when the screen is locked for more than 30 seconds. This is hardware Wi-Fi shutdown for battery saving — an OS behavior, not an app bug.
 
-# 
+### 📞 Support
 
-# \### Вариант Б: Portable / Option B: Portable
+If you encounter an issue, use the built-in **"Copy Diagnostics"** feature in the app menu and send the data to support.
 
-# 1\. Скачайте `OpsFlowPro-1.0.0-portable.zip`.  
+---
 
-# &#x20;  Download `OpsFlowPro-1.0.0-portable.zip`.
+## 🛡️ Security
 
-# 2\. Распакуйте архив в любую папку.  
+Исходный код критических модулей скомпилирован в машинный код с помощью **Cython**, а конфигурационные файлы защищены **AES-шифрованием**.
 
-# &#x20;  Extract the archive to any folder.
+The source code of critical modules is compiled into machine code using **Cython**, and configuration files are protected with **AES encryption**.
 
-# 3\. Запустите `OpsFlowPro.exe`.  
+---
 
-# &#x20;  Run `OpsFlowPro.exe`.
-
-# 
-
-# \---
-
-# 
-
-# \## 💳 Лицензирование / Licensing
-
-# 
-
-# OpsFlow Pro распространяется по коммерческой лицензии.  
-
-# OpsFlow Pro is distributed under a commercial license.
-
-# 
-
-# \- \*\*Trial\*\*: 14 дней бесплатно / 14 days free.
-
-# \- \*\*PRO\*\*: Для приобретения ключа свяжитесь с нами / To purchase a key, contact us:
-
-# &#x20; - ✈️ \*\*Telegram\*\*: \[@opsflow_app](https://t.me/opsflow_app)
-
-# &#x20; - ✉️ \*\*Email\*\*: opsflow@ya.ru
-
-# 
-
-# \---
-
-# 
-
-# \## 📸 Скриншоты / Screenshots
-
-# 
-
-# \*(Скриншоты находятся в папке docs)\*  
-
-# \*(The screenshots are in the docs folder.)\*
-
-# 
-
-# \---
-
-# 
-
-# \## 🛡️ Безопасность / Security
-
-# 
-
-# Исходный код критических модулей скомпилирован в машинный код с помощью \*\*Cython\*\*, а конфигурационные файлы защищены \*\*AES-шифрованием\*\*.  
-
-# The source code of critical modules is compiled into machine code using \*\*Cython\*\*, and configuration files are protected with \*\*AES encryption\*\*.
-
-# 
-
-# \---
-
-# 
-
-# \## 📞 Поддержка / Support
-
-# 
-
-# Если вы столкнулись с проблемой, используйте встроенную функцию \*\*"Скопировать диагностику"\*\* в меню приложения и отправьте данные в поддержку.  
-
-# If you encounter an issue, use the built-in \*\*"Copy Diagnostics"\*\* feature in the app menu and send the data to support.
-
+**Made with ❤️ for IT professionals**
