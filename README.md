@@ -8,11 +8,11 @@
 
 # 
 
-# !\[Version](https://img.shields.io/badge/version-1.0.0-blue)
+# ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-# !\[Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-lightgrey)
+# ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-lightgrey)
 
-# !\[License](https://img.shields.io/badge/license-Commercial-green)
+# ![License](https://img.shields.io/badge/license-Commercial-green)
 
 # 
 
@@ -102,7 +102,7 @@
 
 # \- \*\*PRO\*\*: Для приобретения ключа свяжитесь с нами / To purchase a key, contact us:
 
-# &#x20; - ✈️ \*\*Telegram\*\*: \[@opsflow\_app](https://t.me/opsflow\_app)
+# &#x20; - ✈️ \*\*Telegram\*\*: \[@opsflow_app](https://t.me/opsflow_app)
 
 # &#x20; - ✉️ \*\*Email\*\*: opsflow@ya.ru
 
